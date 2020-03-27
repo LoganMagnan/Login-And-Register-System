@@ -5,7 +5,7 @@ age = input("Enter your age: ")
 
 print("Congratulations! You have successfully created an account on our application!")
 
-register_and_login_system = open("registerandloginsystemdatabase.txt", "a")
+register_and_login_system = open("database.txt", "a")
 
 username1 = register_and_login_system.write("\nUsername: " + username)
 password1 = register_and_login_system.write("\nPassword: " + password)
